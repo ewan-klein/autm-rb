@@ -1,16 +1,37 @@
 baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "username.github.io" # the base hostname & protocol for your site.
-title: "username-blog"
+#url: "username.github.io" # the base hostname & protocol for your site.
+title: "Ewan Klein Homepage"
 
 
 paginate: 3 #articles per page
 paginate_path: /blog/page:num #makes pagination working
 
+# https://github.com/inukshuk/jekyll-scholar
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+
 
 #contacts
-git: "https://github.com/railsr"  #Add your github url here.
-stackoverflow: "http://stackoverflow.com/users/1231365/railsr" #Add your stackoverflow url here.
-twitter: "https://twitter.com/railsr7"  #Add your twitter url here.
+git: "https://github.com/ewan-klein"  #Add your github url here.
+stackoverflow: ""
+twitter: "https://twitter.com/ewanhklein"  #Add your twitter url here.
 
 
 gems:
