@@ -35,6 +35,8 @@ twitter: "https://twitter.com/ewanhklein"  #Add your twitter url here.
 
 gems:
   - jekyll-sitemap
+  - 'jekyll/scholar'
+
 
 
 # This is used by feed.xml. Uncomment if you want to use it.
