@@ -1,6 +1,7 @@
-baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "http://localhost:4000" # the base hostname & protocol for your site.
-title: "Ewan Klein Homepage"
+baseurl: "/ewan" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+#url: "http://localhost:4000" # the base hostname & protocol for your site.
+url: "http://homepages.inf.ed.ac.uk"
+title: "Ewan Klein Homepages"
 
 paginate: 3 #articles per page
 paginate_path: /blog/page:num #makes pagination working
@@ -48,6 +49,7 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
   - "examples"
+  - "Makefile"
   
 permalink: :title
 defaults:
