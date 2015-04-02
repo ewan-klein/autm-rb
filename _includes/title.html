@@ -1,7 +1,7 @@
 <div id="title">
   <h1>
     {% unless site.git == "" %}
-		  <a id="git-ic" href="{{site.git}}"><i class="fa fa-github"></i></a>	
+		  <a id="git-ic" href="{{site.git}}" rel="me"><i class="fa fa-github"></i></a>	
     {% endunless %}
 
     {% unless site.stackoverflow == "" %}
@@ -9,7 +9,7 @@
   {% endunless %}
 
      {% unless site.twitter == "" %}
-      <a id="so-ic" href="{{site.twitter}}"><i class="fa fa-twitter"></i></a>
+      <a id="so-ic" href="{{site.twitter}}" rel="me"><i class="fa fa-twitter"></i></a>
     {% endunless %}
 		
     <a id="sitename" href="/">ewan klein</a>
